@@ -49,7 +49,7 @@
 
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   color: #ffff;
   background: #ff4820;
   font-family: var(--font-family);
@@ -91,10 +91,45 @@
   box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
 }
 
-.gpt3__navbar-menu_container p{
+.gpt3__navbar-menu_container p {
   margin: 1rem 0;
 }
 
-.gpt3__navbar-menue_contrainer-links-sign {
+.gpt3__navbar-menu_container-links-sign {
   display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .gpt3__navbar-links_container {
+    display: none;
+  }
+
+  .gpt3__navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .gpt3__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__navbar {
+    padding: 2rem;
+  }
+
+  .gpt3__navbar-sign {
+    display: none;
+  }
+
+  .gpt3__navbar-menu_container {
+    /* makes the collapsable menu bar show up 20px below top of screen when opened */
+    top: 20px; 
+  }
+
+  .gpt3__navbar-menu_container-links-sign{
+    display: block;
+  }
 }
