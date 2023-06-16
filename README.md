@@ -8,4 +8,5 @@ This project serves as a demonstration of the capabilities and potential applica
   - Desktops
   - Tablets
   - Mobile devices
+    
 Explore the website to witness the power of GPT-3 combined with visually appealing design, delivering a compelling and engaging user experience.
