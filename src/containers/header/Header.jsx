@@ -10,7 +10,7 @@ const Header = () => {
           Let’s Build Something amazing with GPT-3 OpenAI
         </h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. Not
+          Yet bed any for traveling assistance indulgence unpleasing. Not
           thoughts all exercise blessing. Indulgence way everything joy
           alteration boisterous the attachment. Party we years to order allow
           asked of.
