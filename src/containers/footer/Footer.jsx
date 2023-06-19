@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="gpt3__footer section__padding">
       <div className="gpt3__footer-heading">
         <h1 className="gradient__text">
-          Do you want to step in to the future before others
+        Be the Pioneer of the Future: Take the Leap Before Others
         </h1>
       </div>
 
@@ -17,11 +17,11 @@ const Footer = () => {
       <div className="gpt3__footer-links">
         <div className="gpt3__footer-links_logo">
           <img src={gpt3Logo} alt="logo" />
-          <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
+          <p>Great Company Name 9000, All Rights Reserved</p>
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Links</h4>
-          <p>Overons</p>
+          <p>About Us</p>
           <p>Social Media</p>
           <p>Counters</p>
           <p>Contact</p>
@@ -34,14 +34,14 @@ const Footer = () => {
         </div>
         <div className="gpt3__footer-links_div">
           <h4>Get in touch</h4>
-          <p>Crechterwoord K12 182 DK Alknjkcb</p>
+          <p>Great Company Name 9000</p>
           <p>085-132567</p>
           <p>info@payme.net</p>
         </div>
       </div>
 
       <div className="gpt3__footer-copyright">
-        <p>© 2021 GPT-3. All rights reserved.</p>
+        <p><a href="https://kalebsday.netlify.app/" target="_blank" style={{ fontWeight: 'bold' }}>Developed by Kaleb Day</a></p>
       </div>
     </div>
   );
